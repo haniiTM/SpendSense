@@ -5,6 +5,7 @@ import androidx.compose.ui.window.application
 import androidx.compose.ui.window.rememberWindowState
 import info.javaway.spend_sense.Greeting
 import info.javaway.spend_sense.GreetingView
+import info.javaway.spend_sense.root.RootScreen
 
 fun main() {
     val greeting = Greeting()
@@ -18,7 +19,7 @@ fun main() {
             state = windowState,
             title = "SpendSense"
         ) {
-            GreetingView()
+            RootScreen()
         }
     }
 }
