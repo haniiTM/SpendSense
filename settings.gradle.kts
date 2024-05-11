@@ -8,6 +8,15 @@
 rootProject.name = "SpendSense"
 include(":shared")
 include(":desktop")
+include(":android")
+
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
 
 dependencyResolutionManagement {
     repositories {
